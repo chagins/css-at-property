@@ -1,3 +1,10 @@
-# css-at-property
+[# css-at-property](https://developer.mozilla.org/en-US/docs/Web/CSS/@property)
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/chagins/css-at-property)
+```css
+@property --property-name {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #c0ffee;
+}
+```
+[deploy](https://chagins.github.io/css-at-property/)
